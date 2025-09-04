@@ -1,4 +1,4 @@
-# Oriented Programming: Student Grades Management
+# Student Grades Management
 
 ## Objective
 
