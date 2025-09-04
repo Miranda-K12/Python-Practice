@@ -1,0 +1,26 @@
+# Ignore PyCharm specific files
+.idea/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+.env/
+
+# Ignore other IDEs
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite3
+*.db
