@@ -5,17 +5,14 @@ class Student:
         self.grades = []
 
     def add_grade(self, grade):
-        """Adds a new grade to the student's grades list."""
         self.grades.append(grade)
 
     def get_average_grade(self):
-        """Returns the average of the student's grades."""
         total = sum(self.grades)
         return total / len(self.grades) if self.grades else 0
 
     def __str__(self):
-        """Returns a string representation of the Student object."""
-        avg_grade = self.get_average_grade()  # Get the average grade
+        avg_grade = self.get_average_grade()
         return f"Name: {self.name}, Grades: {self.grades}, Average: {avg_grade:.2f}"
 
 # Define the Classroom Class
@@ -24,16 +21,13 @@ class Classroom:
         self.students = []
 
     def add_student(self, student):
-        """Adds a Student object to the students list."""
         self.students.append(student)
 
     def get_top_students(self):
-        """Returns the top 3 students based on their average grades."""
         sorted_students = sorted(self.students, key=lambda student: student.get_average_grade(), reverse=True)
         return sorted_students[:3]
 
     def get_failed_students(self):
-        """Returns a list of students whose average grade is below 51."""
         return [student for student in self.students if student.get_average_grade() < 51]
 
 
