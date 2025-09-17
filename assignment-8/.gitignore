@@ -9,7 +9,7 @@ venv/
 
 # Django
 *.sqlite3
-db.sqlite3
+myApp/db.sqlite3
 *.log
 *.pot
 *.pyc
