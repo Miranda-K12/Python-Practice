@@ -30,7 +30,6 @@ Generate and apply migrations to create the corresponding tables in the database
 
 **Commands:**
 
-```bash
 python manage.py makemigrations
 python manage.py migrate
 
