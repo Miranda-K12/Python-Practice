@@ -1,6 +1,11 @@
 
 # Django Blog Application
 
+### Environment
+
+- **Python Version:** 3.13.7
+- **Django Version:** 5.2.6
+
 ## 1. Create a Django Project
 
 - **Project Name:** `blog_project`  
